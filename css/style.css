@@ -1,5 +1,68 @@
 * {
+  margin: 0;
+  padding: 0;
+}
+
+.main_container {
+  height: 100vh;
+}
+
+.flag_container {
+  background-color: green;
+  width: 500px;
+  height: 250px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+.flag_circle {
+  width: 130px;
+  height: 130px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.flag_stick {
+  width: 20px;
+  height: 240px;
+  background-color: black;
+  position: relative;
+  top: 90%;
+  z-index: -1;
+  border-top-right-radius: 20px;
+}
+.flag_stick_bottom {
+  width: 100px;
+  height: 20px;
   background-color: orange;
-  color: white;
-  font-size: 60px;
+  position: relative;
+  top: 98%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 1px solid black;
+}
+.flag_stick_bottom2 {
+  width: 150px;
+  height: 20px;
+  background-color: orange;
+  position: relative;
+  top: 100%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 1px solid black;
+}
+.flag_stick_bottom3 {
+  width: 200px;
+  height: 20px;
+  background-color: orange;
+  position: relative;
+  top: 100%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 1px solid black;
 }
